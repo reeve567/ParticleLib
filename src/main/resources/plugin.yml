@@ -1,0 +1,23 @@
+name: ParticleLib
+main: dev.reeve.particlelib.ParticleLib
+version: LATEST
+api-version: 1.16
+description: A library for particles
+author: Xwy
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21
+commands:
+  particlecircle:
+    description: Creates a circle of particles
+    usage: /particlecircle <radius> <amount> [bounds...]
+    permission: particlelib.particlecircle
+  particlesphere:
+    description: Creates a sphere of particles
+    usage: /particlesphere <radius> <amount> [bounds...]
+    permission: particlelib.particlesphere
+  particleexplosion:
+    description: Creates an explosion of particles
+    usage: /particleexplosion <radius> <amount> <speed> [bounds...]
+    permission: particlelib.particleexplosion
+
+
